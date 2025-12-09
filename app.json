@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Bhutan Movie App",
+    "slug": "bhutan-movie-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "splash": {
+      "image": "./assets/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050914"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#050914"
+      },
+      "package": "com.wang_chu.bhutanmovieapp"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "6dbe1c34-bf0e-4ad4-ad58-108768bd06d9"
+      }
+    }
+  }
+}
